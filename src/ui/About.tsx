@@ -26,7 +26,7 @@ export default React.memo(({ site }: { site: { site: Site, parsed: ParsedMirror[
     <div className="about">
       <Para title={t("about.intro")} html={config.intro} />
       <Para title={t("about.repo")} content={(
-        <a href="https://github.com/mirrorz-org/mirrorz" target="_blank">https://github.com/mirrorz-org/mirrorz</a>
+        <a href="https://github.com/HuanGeTech/mirrorz" target="_blank">https://github.com/HuanGeTech/mirrorz/actions</a>
       )} />
       <Para title={t("about.logo")} content={site.map(({ site, parsed }, idx) => (
         <div className="about-powered-by" key={site.abbr}>
