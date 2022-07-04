@@ -28,7 +28,7 @@ jobs:
           git clone https://github.com/mirrorz-org/mirrorz-json-site.git static/json/site
       - name: Prepare parser, config, i18n, oh-my-mirrorz
         run: |
-          git clone https://github.com/mirrorz-org/mirrorz-parser.git src/parser
+          git clone https://github.com/muzihuaner/mirrorz-parser.git src/parser
           git clone https://github.com/muzihuaner/mirrorz-config.git src/config
           git clone https://github.com/mirrorz-org/mirrorz-i18n.git src/i18n
           yarn mirrorz_env
